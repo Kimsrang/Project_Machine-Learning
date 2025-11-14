@@ -1,0 +1,11 @@
+# keep secrets & env local
+.env
+.venv/
+# raw data lake should not be versioned
+data/
+# Python cache
+__pycache__/
+*.pyc
+# local db
+*.db
+.ipynb_checkpoints/
